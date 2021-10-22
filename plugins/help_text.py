@@ -61,3 +61,58 @@ async def start(bot, update):
         ),
         reply_to_message_id=update.message_id
     )
+
+    
+    
+    
+    ######################## TextsTexts  #################
+START = """<b>Hai {} </b>,
+a simple Telegram URL Upload Bot!
+it can <b>UPLOAD almost all Direct Links to Telegram as File/Video</b>
+ 
+🚨 Dont Upload PORN video🔞 Links you will Get PERMANENT BAN 🚨
+
+
+┈┈┈••💙✿❤✿💚••┈┈┈
+<b>/help for More Details </b>
+"""
+
+HELP = """How to Use me 🤔
+    
+1. <b>Send url</b>
+         if you need custom File Name do Like this ☛ (Link|New Name with Extension).
+
+2. <b>Send Custom Thumbnail </b>(Optional).
+
+3. <b>Select the button.</b>
+   <b>SS+Video</b> - File as video with Screenshots
+   <b>SS+File</b>  - File with Screenshots
+   <b>Video</b>  - File as video without Screenshots
+   <b>File</b>  - File without Screenshots
+   
+   thats it, I will Do Rest of it 😌
+
+
+<b>check /about to Know about this bot</b>
+"""
+
+ABOUT = """Hi {},
+  
+<b>○ My Name : URLUploader bot
+○ Creator : <a href="https://telegram.dog/oo7robot"> This Person </a>
+○ Credits : Everyone in this journey
+○ Language : Python 3
+○ Library : Pyrogram asyncio 
+○ Cloned From : Spechide Source code
+○ Source Code : ☛ <a href="https://github.com"> click here </a>
+○ Server : Heroku
+○ Build Status : Beta v3 </b>
+
+"""
+
+CURENT_PLAN = """Current plan details
+-------- 
+<b>User Name : {} </b>
+<b>Telegram ID :</b> <code>{}</code>
+<b>Plan name :</b> Free User
+<b>Expires on :</b> 31/12/2021"""
